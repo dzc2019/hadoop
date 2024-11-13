@@ -316,6 +316,7 @@ void hdfsFileDisableDirectRead(hdfsFile file)
     file->flags &= ~HDFS_FILE_SUPPORTS_DIRECT_READ;
 }
 
+
 int hdfsDisableDomainSocketSecurity(void)
 {
     jthrowable jthr;
